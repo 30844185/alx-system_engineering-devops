@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# Prints "Best School" 10 times but "bad luck" and "good luck"
+# on the 4th and 8th iteration
+j=0
+while [[ $j -lt 10 ]]; do
+  if [[ $j -eq 3 ]]; then
+    echo "bad luck"
+  elif [[ $j -eq 7 ]]; then
+    echo "good luck"
+  else
+    echo "Best School"
+  fi  
+  j="$((j + 1))"
+done

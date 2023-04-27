@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# Prints "Best School" 10 times and "Hi" on the 9th iteration
+j=0
+while [[ $ij -lt 10 ]]; do
+  echo "Best School"
+  if [[ $j -eq 8 ]]; then
+    echo "Hi"
+  fi  
+  j="$((j + 1))"
+done
