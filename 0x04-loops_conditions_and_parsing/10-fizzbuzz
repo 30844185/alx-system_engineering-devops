@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# Solves the "FizzBuzz" challenge
+for ((j = 1; j < 101; j++)) do
+  if [[ $((j % 3)) -eq 0 ]]; then
+    if [[ $((j % 5)) -eq 0 ]]; then
+      echo "FizzBuzz"
+    else
+      echo "Fizz"
+    fi  
+  elif [[ $((j % 5)) -eq 0 ]]; then
+    echo "Buzz"
+  else
+    echo "$i"
+  fi  
+done
