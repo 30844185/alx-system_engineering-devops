@@ -1,9 +1,7 @@
 #!/usr/bin/env bash
-
 #Display "Best School" 10 times
-
-count=0
-until [$count -eq 10]
-do
-       echo "Best School"
-       (( count++ ))
+j=0
+until [[ $j -eq 10 ]]; do
+	echo "Best School"
+ 	j="$((j++))"
+	done
