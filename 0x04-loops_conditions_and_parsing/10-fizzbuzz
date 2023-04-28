@@ -10,6 +10,6 @@ for ((j = 1; j < 101; j++)) do
   elif [[ $((j % 5)) -eq 0 ]]; then
     echo "Buzz"
   else
-    echo "$i"
+    echo "$j"
   fi  
 done
