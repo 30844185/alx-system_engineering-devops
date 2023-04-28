@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Prints "Best School" 10 times
 j=0
-until [[ $i -eq 10 ]]; do
+until [[ $j -eq 10 ]]; do
   echo "Best School"
   j="$((j + 1))"
 done
