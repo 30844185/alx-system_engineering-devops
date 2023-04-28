@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-echo "My PID is: $$"
+#echo "My PID is: $$"
